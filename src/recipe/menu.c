@@ -86,6 +86,7 @@
 #include "os/YUM/Anolis-OS.c"
 
 #include "os/pacman/Arch-Linux.c"
+#include "os/pacman/Omarchy.c"
 #include "os/pacman/Manjaro-Linux.c"
 #include "os/pacman/MSYS2.c"
 
@@ -209,6 +210,8 @@ chsrc_init_menu ()
   add (arch);
   add (archlinuxcn);
   add (manjaro);
+  add (omarchy);
+  add (omarchyopr);
   add (gentoo);
   add (rockylinux);
   add (almalinux);
